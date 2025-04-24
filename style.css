@@ -1,0 +1,370 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+video{
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.nav__list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 27px;
+}
+
+.nav__list a{
+    color: white;
+}
+
+.yupi{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin: 837px 830px 180px 180px;
+    bottom: 0;
+    left: 0px;
+}
+
+.yupi a{
+    width: 130px;
+height: 50px;
+top: 108.5px;
+border-width: 2px;
+font-family: Arial;
+font-weight: 400;
+font-size: 12.91px;
+line-height: 50px;
+letter-spacing: 0%;
+text-align: center;
+vertical-align: middle;
+text-transform: uppercase;
+color: white;
+border: 3px solid #ffffff;
+}
+
+.yupi p{
+    font-family: Arial;
+font-weight: 400;
+font-size: 17.19px;
+line-height: 38px;
+letter-spacing: 0%;
+vertical-align: middle;
+text-transform: uppercase;
+color: white;
+}
+
+.yupi h2{
+    font-family: Arial;
+font-weight: 400;
+font-size: 41.06px;
+line-height: 48px;
+letter-spacing: 0%;
+vertical-align: middle;
+text-transform: uppercase;
+padding-top: 5px;
+padding-bottom: 18px;
+color: white;
+}
+.umpa{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin: 837px 830px 180px 180px;
+    bottom: -837px;
+    left: 0;
+}
+
+.umpa h2{
+    font-family: Arial;
+font-weight: 400;
+font-size: 41.06px;
+line-height: 48px;
+letter-spacing: 0%;
+vertical-align: middle;
+text-transform: uppercase;
+padding-top: 5px;
+padding-bottom: 18px;
+color: white;
+}
+
+.umpa p{
+    font-family: Arial;
+font-weight: 400;
+font-size: 17.19px;
+line-height: 38px;
+letter-spacing: 0%;
+vertical-align: middle;
+text-transform: uppercase;
+color: white;
+}
+
+
+.umpa a{
+    width: 130px;
+height: 50px;
+top: 108.5px;
+border-width: 2px;
+font-family: Arial;
+font-weight: 400;
+font-size: 12.91px;
+line-height: 50px;
+letter-spacing: 0%;
+text-align: center;
+vertical-align: middle;
+text-transform: uppercase;
+color: white;
+border: 3px solid #ffffff;
+}
+
+
+.tumpa{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin: 837px 830px 180px 180px;
+    bottom: -1579px;
+    left: 0;
+}
+
+.tumpa h2{
+    font-family: Arial;
+font-weight: 400;
+font-size: 41.06px;
+line-height: 48px;
+letter-spacing: 0%;
+vertical-align: middle;
+text-transform: uppercase;
+padding-top: 5px;
+padding-bottom: 18px;
+color: white;
+}
+
+.tumpa p{
+    font-family: Arial;
+font-weight: 400;
+font-size: 17.19px;
+line-height: 38px;
+letter-spacing: 0%;
+vertical-align: middle;
+text-transform: uppercase;
+color: white;
+}
+
+.tumpa a{
+    width: 130px;
+height: 50px;
+top: 108.5px;
+border-width: 2px;
+font-family: Arial;
+font-weight: 400;
+font-size: 12.91px;
+line-height: 50px;
+letter-spacing: 0%;
+text-align: center;
+vertical-align: middle;
+text-transform: uppercase;
+color: white;
+border: 3px solid #ffffff;
+}
+
+.sumpa{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin: 837px 830px 180px 180px;
+    bottom: -2300px;
+    left: 0;
+}
+
+.sumpa h2{
+    font-family: Arial;
+font-weight: 400;
+font-size: 41.06px;
+line-height: 48px;
+letter-spacing: 0%;
+vertical-align: middle;
+text-transform: uppercase;
+padding-top: 5px;
+padding-bottom: 18px;
+color: white;
+}
+
+.sumpa p{
+    font-family: Arial;
+font-weight: 400;
+font-size: 17.19px;
+line-height: 38px;
+letter-spacing: 0%;
+vertical-align: middle;
+text-transform: uppercase;
+color: white;
+}
+
+.sumpa a{
+    width: 130px;
+height: 50px;
+top: 108.5px;
+border-width: 2px;
+font-family: Arial;
+font-weight: 400;
+font-size: 12.91px;
+line-height: 50px;
+letter-spacing: 0%;
+text-align: center;
+vertical-align: middle;
+text-transform: uppercase;
+color: white;
+border: 3px solid #ffffff;
+}
+
+
+.kumpa{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin: 837px 830px 180px 180px;
+    bottom: -3000px;
+    left: 0px;
+}
+
+.kumpa h2{
+    font-family: Arial;
+font-weight: 400;
+font-size: 41.06px;
+line-height: 48px;
+letter-spacing: 0%;
+vertical-align: middle;
+text-transform: uppercase;
+padding-top: 5px;
+padding-bottom: 18px;
+color: white;
+}
+
+.kumpa p{
+    font-family: Arial;
+font-weight: 400;
+font-size: 17.19px;
+line-height: 38px;
+letter-spacing: 0%;
+vertical-align: middle;
+text-transform: uppercase;
+color: white;
+}
+
+
+.kumpa a{
+    width: 130px;
+height: 50px;
+top: 108.5px;
+border-width: 2px;
+font-family: Arial;
+font-weight: 400;
+font-size: 12.91px;
+line-height: 50px;
+letter-spacing: 0%;
+text-align: center;
+vertical-align: middle;
+text-transform: uppercase;
+color: white;
+border: 3px solid #ffffff;
+}
+.yumpa{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin: 837px 830px 180px 180px;
+    bottom: -3750px;
+    left: 0px;
+}
+
+.yumpa h2{
+    font-family: Arial;
+font-weight: 400;
+font-size: 41.06px;
+line-height: 48px;
+letter-spacing: 0%;
+vertical-align: middle;
+text-transform: uppercase;
+padding-top: 5px;
+padding-bottom: 18px;
+color: white;
+}
+
+.yumpa p{
+    font-family: Arial;
+font-weight: 400;
+font-size: 17.19px;
+line-height: 38px;
+letter-spacing: 0%;
+vertical-align: middle;
+text-transform: uppercase;
+color: white;
+}
+
+
+.yumpa a{
+    width: 130px;
+height: 50px;
+top: 108.5px;
+border-width: 2px;
+font-family: Arial;
+font-weight: 400;
+font-size: 12.91px;
+line-height: 50px;
+letter-spacing: 0%;
+text-align: center;
+vertical-align: middle;
+text-transform: uppercase;
+color: white;
+border: 3px solid #ffffff;
+}
+
+.beck{
+    background-color: black;
+    height: 81px;
+}
+
+.bar{
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 44px;
+padding-top: 30px;
+}
+
+.bar a{
+    font-family: Arial;
+font-weight: 400;
+font-size: 10.13px;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+vertical-align: middle;
+text-transform: uppercase;
+color: white;
+}
